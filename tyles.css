@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --Primera: #2e4280;
+    --Segunda: #000000;
+    --Tercera:  #1201c9;
+    --Cuarta:  #11b202;
+    --Cuerpo:   #1a3167;
+    --Textos: #ffffff;
+}
+
+
+body {
+    background-color: var(--Cuerpo);
+    
+}
+
+.encabezado {
+    background-color: var(--Segunda);
+    color: var(--Textos);
+    margin: 90px;
+    padding: 70px;
+    text-align: center;
+    border-radius: 20px; 
+    margin-top: 20px;
+}
+
+.live li {
+    display: contents;
+}
+
+.Padre {
+margin: auto;
+margin-top: 20px;
+margin-bottom: 200px;
+border-radius: 20px;
+overflow: hidden;
+}
+
+nav{
+    background-color: var(--Primera);
+    margin: 90px;
+    position: relative;
+    top: -110px;
+}
+
+nav a{
+    color: var(--Textos);
+    margin: 0px;
+    text-decoration-line: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+nav a:hover{
+    background-color: rgb(71, 62, 191);
+
+}
+
+.container-section{
+    background-color: var(--Tercera);
+    padding: 250px;
+    margin: 300px;
+    float: left;
+    margin-top: -190px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    height: 35px;
+    color: var(--Textos)
+}
+
+.container-section-2{
+background-color: var(--Cuarta);
+padding: 100px;
+width: 202px;
+height: 335px;
+margin-left: 770px;
+margin-top: -190px;
+}
+
+
+.list{
+    position: absolute;
+    top: 29px;
+    left: 900px;
+    z-index: 1000;
+    color: var(--Textos);
+    background-color: var(--Primera);
+}
+
+.list .Parrafo {
+    cursor: pointer;
+}   
+
+.image {
+    position: absolute;
+    top: 340px;
+    left: 855px;
+    height: 100px;
+}
+
+.image:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.image-2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 920px;
+    height: 150px;
+    width: 250px;
+}
+
+footer{
+padding: 100px;
+background-color: var(--Segunda);
+color: var(--Textos);
+}
+
+footer p {
+    float: inline-end;
+    margin: 20px;
+    position: relative;
+    top: -100px;
+    font-size: 25px;
+    left: -120px;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #443f45;
+
+}
+
+footer a{
+    color: white;
+}
+
+.list-2{
+    color: var(--Textos);
+    display: flex;
+    list-style: none;
+}
+
+.list-2 a{
+    float: inline-end;
+    margin: 40px;
+    position: relative;
+    top: 130px;
+    font-size: 25px;
+    left: 50px;
+    cursor: pointer;
+}
+
+
+.list-2 li a, p{
+    font-weight: bold;
+}
